@@ -14,12 +14,12 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->string('product_name');
-            $table->integer('product_qty');
+            $table->integer('product_code');
             // Add any other columns you need
             $table->timestamps();
         });
     }
-    
+
 
     /**
      * Reverse the migrations.

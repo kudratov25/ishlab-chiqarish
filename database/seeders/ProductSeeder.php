@@ -15,12 +15,12 @@ class ProductSeeder extends Seeder
     {
         Product::create([
             'product_name' => 'Product 1',
-            'product_qty' => 10,
+            'product_code' => 110,
         ]);
 
         Product::create([
             'product_name' => 'Product 2',
-            'product_qty' => 5,
+            'product_code' => 51,
         ]);
 
         // Add more products as needed
